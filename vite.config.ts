@@ -1,10 +1,10 @@
 import { defineConfig } from 'vite'
-import solidPlugin from 'vite-plugin-solid'
+import SolidPlugin from 'vite-plugin-solid'
 import UnocssPlugin from '@unocss/vite'
 
 export default defineConfig({
   plugins: [
-    solidPlugin(),
+    SolidPlugin(),
     UnocssPlugin(),
   ],
   build: {
