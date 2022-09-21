@@ -15,11 +15,11 @@ specifiers:
   vite-plugin-solid: 2.3.6
 
 dependencies:
-  '@unocss/reset': 0.45.22
   solid-js: 1.5.5
 
 devDependencies:
   '@antfu/eslint-config': 0.27.0_irgkl5vooow2ydyo6aokmferha
+  '@unocss/reset': 0.45.22
   eslint: 8.23.1
   lint-staged: 13.0.3
   pnpm: 7.12.1
@@ -927,6 +927,7 @@ packages:
 
   /@unocss/reset/0.45.22:
     resolution: {integrity: sha512-jNLWr5tZ2X+fMCNXYXJe5/AUeTPeWcXke0XpWSXrQ7f5Bbk1TpbUFcV7ln4DvUwRkQsmcDYxdj7em/wN1U0mSQ==}
+    dev: true
 
   /@unocss/scope/0.45.22:
     resolution: {integrity: sha512-ePhauPBGCMuJIV9v/Ybn03UfYyIF5uUSVl3QahISHObFM/x7CGQhWqSBFGCc+AjAZrPqdNstHNvcu+nHuwW3Kg==}
